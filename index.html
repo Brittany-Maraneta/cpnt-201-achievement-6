@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Achievement</title>
+  </head>
+  <script>
+    tailwind.config = {
+      theme: {
+        fontFamily: {
+          sans: ["Courier", "sans-serif"],
+          mono: ["cedarville", "cursive"],
+        },
+        extend: {
+          colors: {
+            Amber: "#fde68a",
+          },
+        },
+      },
+    };
+  </script>
+  <body class="bg-pink-100 lg:bg-white">
+    <h1 class="text-xl font-bold text-center font-sans mb-4 lg:text-red-300">
+      BMARAS
+    </h1>
+
+    <div class="relative inset-0 flex max-w-xl mx-auto mt-25">
+      <img
+        class="m-auto mb-4"
+        src="https://brittany-maraneta.github.io/cpnt260-a1/images/pastelflowers.webp"
+      />
+
+      <div class="absolute inset-0 flex items-center justify-center">
+        <h2 class="text-black text-4xl font-bold italic font-mono">
+          Brittany Maraneta
+        </h2>
+      </div>
+    </div>
+    <div class="flex justify-center">
+      <button
+        class="text-center py-2 px-2 bg-white hover:bg-pink-200 lg:bg-red-900 lg:text-white lg:hover:bg-red-400 rounded-md mb-4"
+      >
+        Contact Me
+      </button>
+    </div>
+
+    <h1 class="text-2xl text-center font-mono italic mb-4 lg:text-red-300">
+      Love for creation, experience and technology
+    </h1>
+    <div class="md:ml-20">
+      <h2
+        class="text-l text-center font-sans mb-4 flex flex-col justify-center lg:text-red-300"
+      >
+        I am a past Media Artist who specialized in videography, sound and
+        photography. My passion was always towards anything towards creating and
+        building. I then opened up my interests towards coding and developing
+        small installation projects where I grew my love for code. I am
+        currently exploring Web Development where I hope to be a JR Developer
+        shortly.
+      </h2>
+    </div>
+  </body>
+</html>
